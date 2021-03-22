@@ -1,6 +1,7 @@
 {
   "project_info": {
     "project_number": "1071722001518",
+    "firebase_url": "https://combatsim-ca903-default-rtdb.firebaseio.com",
     "project_id": "combatsim-ca903",
     "storage_bucket": "combatsim-ca903.appspot.com"
   },
