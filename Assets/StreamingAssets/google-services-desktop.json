@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1071722001518",
+    "firebase_url": "https://combatsim-ca903-default-rtdb.firebaseio.com",
+    "project_id": "combatsim-ca903",
+    "storage_bucket": "combatsim-ca903.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1071722001518:android:b583bc3ed4e11fd891e27f",
+        "android_client_info": {
+          "package_name": "com.CombatVision.ArmySimulator"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1071722001518-im04i4fpb2gplpd8onsvs2jbp0gsv27o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCezOs-8pW6ney376STVEjmXwJEOmDShrE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1071722001518-im04i4fpb2gplpd8onsvs2jbp0gsv27o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

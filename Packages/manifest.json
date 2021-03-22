@@ -1,5 +1,8 @@
 {
   "dependencies": {
+    "com.google.firebase.app": "7.1.0",
+    "com.google.firebase.auth": "7.1.0",
+    "com.google.firebase.database": "7.1.0",
     "com.unity.collab-proxy": "1.2.16",
     "com.unity.ext.nunit": "1.0.0",
     "com.unity.ide.rider": "1.1.4",
