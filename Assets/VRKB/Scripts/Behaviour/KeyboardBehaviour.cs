@@ -281,6 +281,11 @@ namespace VRKB
                     // confirming keyboard input
                     OnConfirm.Invoke(Text);
                     break;
+                case ActionType.Login:
+                    // invoke user-specified callback(s) for
+                    // confirming keyboard input
+                    OnConfirm.Invoke(Text);
+                    break;
                 case ActionType.None:
                 default:
                     break;
