@@ -14,7 +14,9 @@ namespace VRKB
         EnableLayerForNextKey,
         Cancel,
         Confirm,
-        Login
+        Login,
+        Register,
+        Next
     };
 
     [System.Serializable]
