@@ -34,7 +34,7 @@ public class Patrol : MonoBehaviour
     void Update()
     {
         transform.position = Vector3.MoveTowards(transform.position, moveSpots[randomSpot].position, speed * Time.deltaTime);
-        transform.rotation = Quaternion.LookRotation(moveSpots[randomSpot].forward);
+        //transform.rotation = Quaternion.LookRotation(moveSpots[randomSpot].forward);
 
 
         if (Vector3.Distance(transform.position, moveSpots[randomSpot].position) < 0.2f)
