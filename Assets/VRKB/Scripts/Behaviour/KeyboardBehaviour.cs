@@ -92,6 +92,7 @@ namespace VRKB
         /// </param>
         /// </summary>
         public OnConfirmEvent OnConfirm;
+        public OnNextEvent OnNext;
 
         protected TMP_InputField _inputField;
         protected TextMeshProUGUI _placeholder;
@@ -240,6 +241,9 @@ namespace VRKB
             return _pressedKeys.Count;
         }
 
+        protected TMP_InputField email;
+        protected TMP_InputField password;
+
         public bool PressKey(KeyBehaviour key, Collider collider, bool autoRepeat=false)
         {
             if (!AllowSimultaneousKeyPresses && _pressedKeys.Count > 0 && !autoRepeat)
@@ -281,7 +285,7 @@ namespace VRKB
                     // confirming keyboard input
                     OnConfirm.Invoke(Text);
                     break;
-                case ActionType.Next:
+                case ActionType.Login:
                     
 
                     break;

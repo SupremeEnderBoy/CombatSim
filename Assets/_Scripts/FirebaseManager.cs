@@ -116,8 +116,7 @@ public class FirebaseManager : MonoBehaviour
 
             // Change scene once loggin takes place
 
-            
-
+            SceneManager.LoadScene(1);
 
         }
     }
